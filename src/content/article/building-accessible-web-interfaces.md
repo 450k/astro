@@ -115,9 +115,9 @@ Content must be robust enough for various assistive technologies.
 <!-- Use semantic HTML -->
 <nav aria-label="Main navigation">
   <ul>
-    <li><a href="/" aria-current="page">Home</a></li>
-    <li><a href="/about">About</a></li>
-    <li><a href="/contact">Contact</a></li>
+    <li><a href="/astro/" aria-current="page">Home</a></li>
+    <li><a href="/astro/about">About</a></li>
+    <li><a href="/astro/contact">Contact</a></li>
   </ul>
 </nav>
 ```
@@ -139,7 +139,7 @@ Use the right HTML elements for their intended purpose:
 <!-- Use semantic elements -->
 <header>
   <nav>
-    <a href="/">Home</a>
+    <a href="/astro/">Home</a>
   </nav>
 </header>
 ```
@@ -152,8 +152,8 @@ ARIA attributes provide additional context for assistive technologies:
 <!-- Button that controls content -->
 <button aria-expanded="false" aria-controls="menu" id="menu-button">Menu</button>
 <ul id="menu" aria-labelledby="menu-button" hidden>
-  <li><a href="/home">Home</a></li>
-  <li><a href="/about">About</a></li>
+  <li><a href="/astro/home">Home</a></li>
+  <li><a href="/astro/about">About</a></li>
 </ul>
 
 <!-- Progress indicator -->
