@@ -1,26 +1,26 @@
 export default {
-    siteTitle: "The Storyteller", // Main site title displayed in header
-    siteSubTitle: "Minimal musings on code, design, and life", // Subtitle shown under main title
-    copyright: "© 2025 The Storyteller. All Rights Reserved.", // Footer copyright text
+    siteTitle: "Tech Note Blog with Astro", // Main site title displayed in header
+    siteSubTitle: "Astroを使ったサイト構築手順のまとめ", // Subtitle shown under main title
+    copyright: "© 2025 450k. All Rights Reserved.", // Footer copyright text
     showAuthorsOnHomePage: false, // Display author info on homepage
     showFeaturrdPostsOnHomePage: true, // Show featured posts section on homepage
     showCategoryOnPosts: true, // Display categories on posts in homepage
     labels: {
-        featuredPosts: "Featured Posts", // Title for featured posts section
-        latestPosts: "Latest Posts", // Title for latest posts section
-        viewAllPosts: "View All Posts", // Text for link to paginated blog
-        backToHome: "Back to Home", // Back navigation text
-        youMightAlsoLike: "You Might Also Like", // Similar posts section title
+        featuredPosts: "注目の投稿", // Title for featured posts section
+        latestPosts: "最近の投稿", // Title for latest posts section
+        viewAllPosts: "すべての投稿を見る", // Text for link to paginated blog
+        backToHome: "トップへ戻る", // Back navigation text
+        youMightAlsoLike: "こちらもおすすめ", // Similar posts section title
         postedIn: "Posted in", // Category prefix text in articles
-        noArticlesFound: "No articles found.", // Empty state message
-        allCategories: "All Categories", // Categories page title
-        allTags: "All Tags", // Tags page title
-        allAuthors: "All Authors", // Authors page title
-        exploreArticlesByTags: "Explore articles organized by topics", // Tags page description
-        exploreArticlesByCategories: "Explore articles organized by topics", // Categories page description
-        exploreArticlesByAuthors: "Explore articles organized by authors", // Authors page description
+        noArticlesFound: "記事が見つかりませんでした。", // Empty state message
+        allCategories: "すべてのカテゴリ", // Categories page title
+        allTags: "すべてのタグ", // Tags page title
+        allAuthors: "すべての投稿者", // Authors page title
+        exploreArticlesByTags: "タグで分類", // Tags page description
+        exploreArticlesByCategories: "トピックスで分類", // Categories page description
+        exploreArticlesByAuthors: "投稿者で分類", // Authors page description
         readMore: "Read More", // Text for "Read More" links on featured posts
-        shareThisArticle: "Share this article", // Share button text
+        shareThisArticle: "この記事をシェアする", // Share button text
     },
     pagination: {
         showPrevNext: true, // Show Previous/Next navigation buttons
