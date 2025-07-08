@@ -65,7 +65,7 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 ```
 
 
-## Astroのセットアップ
+## 3. Astroのセットアップ
 作業ディレクトリを決め、ターミナルを起動
 私の場合は
 
