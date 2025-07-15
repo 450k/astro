@@ -9,7 +9,7 @@ tags:
   - github
   - contentful
 featured: true
-thumb: /astro/images/articles/contentful.png
+thumb: /astro/images/articles/contentful_logo.png
 large: /astro/images/articles/contentful.png
 ---
 
