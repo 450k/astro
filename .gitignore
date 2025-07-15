@@ -23,6 +23,9 @@ pnpm-debug.log*
 # jetbrains setting folder
 .idea/
 
+# obsidian
+.obsidian/
+
 sample-markup
 *.lock
 social.txt
