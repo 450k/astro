@@ -9,21 +9,13 @@ tags:
   - github
   - contentful
 featured: true
-thumb: /astro/images/articles/roman-synkevych-wX2L8L-fGeA-unsplash.jpg
-large: /astro/images/articles/roman-synkevych-wX2L8L-fGeA-unsplash.jpg
+thumb: /astro/images/articles/contentful.png
+large: /astro/images/articles/contentful.png
 ---
 
 こちらの記事では、AstroにヘッドレスCMSの一つ、Contentfulを組み込んだページの制作から公開までの手順を説明します。
 
 ## contentfulとは
-> You can use GitHub Pages to host a website about yourself, \
-> your organization, or your project directly from a repository on GitHub.
-
-
-> GitHub Pagesはあなた自身やあなたの属する組織、プロジェクトのサイトを\
-> GitHubのリポジトリから直接公開できるホスティングサービス。
-
-
 [contentful](https://www.contentful.com) とは、ヘッドレスCMSのひとつ。2013年にドイツ、ベルリンで設立された会社のサービス。
 
 今回はこちらのサービスとAstroをっ組み合わせてページを制作していきます。
@@ -83,3 +75,8 @@ npm run dev
 
 Astrobrary
 のページが表示されれば設定は完了です。
+
+## 使ってみて
+仕組みは分かったものの、最初にインストールしたbookshelfがあまりイケてないので、改めてインストールをやり直します。
+
+contentfulとは関係ないが、obsidianをいれて、原稿（.mdファイル）を管理すれば快適になりそう。
